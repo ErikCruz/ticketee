@@ -46,6 +46,10 @@ group :development, :test do
   gem 'sqlite3',     '1.3.9'
 end
 
+group :test do
+  gem "factory_girl_rails", "~> 4.5"
+end
+
 group :production do
   gem 'pg'
   gem 'rails_12factor'
